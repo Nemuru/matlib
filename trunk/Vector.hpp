@@ -36,7 +36,6 @@ namespace mat
       T operator^(const Vector<T> &a) const {    //iloczyn wektorowy
       return x*a.y-a.x*y;
     }
-      // do zaimplementowania: funkcja zwracajaca dlugosc (wymagany pierwiastek)
       T length() {
       return sqrt(x*x + y*y);
     }
